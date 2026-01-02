@@ -7,7 +7,7 @@ from telegram.ext import Application, CommandHandler, MessageHandler, filters, P
 # متغيرات ثابتة
 TOKEN = "8492758125:AAHlVlTJsEKalJOxjAJDmHy7vZ7cFRjpQN8"  # استبدل بتوكن البوت الخاص بك من BotFather
 ADMIN_ID = 793878365  # استبدل بمعرف الإدمن (user_id)
-PRICE_STARS = 1  # سعر الاشتراك بالنجوم (يمكن تغييره)
+PRICE_STARS = 0  # سعر الاشتراك بالنجوم (يمكن تغييره)
 
 # إنشاء قاعدة البيانات SQLite وجدول المستخدمين إذا لم يكن موجوداً
 def init_db():
@@ -154,3 +154,4 @@ def main() -> None:
 
 if __name__ == '__main__':
     main()
+
